@@ -21,7 +21,7 @@ use Webimpress\HttpMiddlewareCompatibility\MiddlewareInterface;
 use Zend\Diactoros\Response\HtmlResponse;
 use Zend\Expressive\Template\TemplateRendererInterface;
 
-class UserList implements MiddlewareInterface
+final class UserList implements MiddlewareInterface
 {
     /**
      * @var TemplateRendererInterface
